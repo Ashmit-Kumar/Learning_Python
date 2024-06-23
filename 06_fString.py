@@ -11,7 +11,7 @@ def get_Choice():
     return win
 
 def get_win(player,computer):
-    prnt("Player Choice "+player+" Computer Choice "+computer)
+    print("Player Choice "+player+" Computer Choice "+computer)
     if player==computer:
         return "It's a Tie!😮😮😮"
     

@@ -17,3 +17,14 @@ def get_win(player,computer):
     
 result=get_Choice()
 print(result)
+'''
+age1=45454
+print("{age1}")
+// If you will use the way i am using above it will print age1 not the value of the age1 just the age1
+print(f"{age1}")
+
+
+age=100005264112
+print(f"{age}")
+// if you will do this way by Adding f before it will print the value of age
+'''

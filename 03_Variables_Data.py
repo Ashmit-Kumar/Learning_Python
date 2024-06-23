@@ -13,6 +13,8 @@ print(type(name))
 print(isinstance(name,str))
 n=int("20")
 print(isinstance(n,int))
+print([] or 2 >5)
+print(False or [])
 # n1=int("k")
 # print(isinstance(n1,int))
 # print(5.5//2)  floor divison

@@ -102,5 +102,12 @@ print(a[3:])
 # to get the ascii value of a character 
 #n="c",
 #print(ord(n))
-n='c',
-print(ord('c')) # this will give ascii value but you will pass the character directly 
+# char='c',
+# print(ord(char)) # this will give ascii  but it may give error in differnet idle
+
+def method1(char):
+    return ord(char)
+
+character = 'a'
+print("ASCII value of", character, "is:", method1(character))
+

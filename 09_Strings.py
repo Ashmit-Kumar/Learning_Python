@@ -99,3 +99,8 @@ print(a[1:3])
 print(a[:7])
 print(a[3:])
 
+# to get the ascii value of a character 
+#n="c",
+#print(ord(n))
+n='c',
+print(ord('c')) # this will give ascii value but you will pass the character directly 

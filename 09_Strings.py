@@ -32,6 +32,7 @@ s="AAAAAAa"
 ss="Ashmit"
 s1="AA"
 s2="  aaaa bbbbabb cccc"
+print(len(s2))
 print(s.upper()) 
 print(s.lower())
 print(s1.islower())
@@ -111,3 +112,5 @@ def method1(char):
 character = 'a'
 print("ASCII value of", character, "is:", method1(character))
 
+
+  

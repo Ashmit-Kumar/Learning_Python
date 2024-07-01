@@ -113,4 +113,11 @@ character = 'a'
 print("ASCII value of", character, "is:", method1(character))
 
 
+name="Beau is whole"
+print(name[-1]) #Last characters
   
+
+#Slicing  
+print(name[0:4])
+print(name[:5])
+print(name[4:])

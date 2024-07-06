@@ -57,9 +57,11 @@ ss1="-"
 print(ss1.join('Hello')) #h-e-l-l-o
 list1=["a","s","h","m","i","t"]
 print("".join(list1))
+print("Capitalize ",s2.capitalize())
 # https://www.youtube.com/watch?v=eWRfhZUzrAc&list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB
 # 1:16:40
-
+x='Hello hell hell'
+print(x.count("hel")) #count the substring hel in string x so ans will be 2 
 words=["apple","banana","cherry",""]
 separator="@ "
 result=separator.join(word for word in words)
@@ -112,6 +114,8 @@ def method1(char):
 character = 'a'
 print("ASCII value of", character, "is:", method1(character))
 
+print(chr(97)) # gives char value of 97
+
 
 name="Beau is whole"
 print(name[-1]) #Last characters
@@ -121,3 +125,11 @@ print(name[-1]) #Last characters
 print(name[0:4])
 print(name[:5])
 print(name[4:])
+
+#To reverse String 
+
+print("".join(reversed("ashmit")))
+
+z="D:\java prog\ashmit\Python_Prog\learn\09_Strings.py"
+print(z)
+fg="D:\\java prog\\ashmit\\Python_Prog\\learn\\09_Strings.py"

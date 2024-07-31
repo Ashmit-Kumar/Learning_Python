@@ -46,7 +46,9 @@ There are three types of read function to read content in a python file
 
 1) read([n]):to read n bytes from a file if n is missing, read the entire file content
 '''
-
+f=open('a.txt','w')
+f.write("Helllo how aare you")
+f.close()
 f=open("abc.txt","r")
 v=f.read() # read whole file
 print(v)
@@ -129,3 +131,14 @@ f=open('abcd.txt','w')
 l=['aaaaaaa','bbbbbbbbbbbbb','cccccc\n','ffffffff']
 f.writelines(l)
 f.close()
+
+f=open('abcd.txt','r')
+v=f.read()
+f1=open('abcd.txt','w')
+for i in v:
+    f1.write(i+",")
+read=f.read()
+write=f.write(read)
+f1.close()
+f.close()
+

@@ -1,0 +1,30 @@
+# Calculator
+from tkinter import *
+
+root=Tk()
+root.title("Simple Calulator")# to give title
+e=Entry(root,width=35,borderwidth=5)
+# e.index(root,Text="Input the number")
+one=Button(root,text="1")
+two=Button(root,text="2")
+three=Button(root,text="3")
+four=Button(root,text="4")
+five=Button(root,text="5")
+six=Button(root,text="6")
+seven=Button(root,text="7")
+eight=Button(root,text="9")
+nine=Button(root,text="9")
+zero=Button(root,text="0")
+
+one.grid(row=1,column=0)
+two.grid(row=1,column=1)
+three.grid(row=1,column=2)
+four.grid(row=2,column=0)
+five.grid(row=2,column=1)
+six.grid(row=2,column=2)
+seven.grid(row=3,column=0)
+eight.grid(row=3,column=1)
+nine.grid(row=3,column=2)
+zero.grid(row=4,column=0)
+e.grid(row=0,column=0,columnspan=3,padx=10,pady=10)
+root.mainloop()

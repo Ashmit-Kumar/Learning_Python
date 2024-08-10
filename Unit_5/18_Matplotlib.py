@@ -18,18 +18,18 @@ The third argument represents the index of the current plot.
 ''' 
 
 # plot 1
-plt.subplot(2,2,4)
+plt.subplot(2,2,1)
 plt.plot(x,y)
 
 # plot 2
-plt.subplot(2,2,1)
+plt.subplot(2,2,2)
 plt.plot(x1,y1)
 # plot 3
 plt.subplot(2,2,3)
 plt.plot(x,y)
 
 # plot 4
-plt.subplot(2,2,2)
+plt.subplot(2,2,4)
 plt.plot(x,y)
 plt.show()
 

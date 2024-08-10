@@ -22,6 +22,7 @@ bb=np.full((3,2),2)
 print(aa)
 print(bb)
 print(aa.dot(bb))
+print("Hello")
 print(np.matmul(aa,bb))
 
 # Find determinant
@@ -35,6 +36,7 @@ print(np.linalg.det(cc))
 st=np.array([[1,2,9],[4,5,6]])
 
 # Min
+print("minnnnnnn")
 print(np.min(st))
 print(np.min(st,axis=0))
 print(np.min(st,axis=1))
@@ -46,6 +48,7 @@ print(np.max(st,axis=1))
 
 # Sum
 print(np.sum(st))
+print(np.sum(st,axis=0))
 
 # sqrt
 print(np.sqrt(st))
@@ -53,7 +56,8 @@ print(np.sqrt(st))
 # Reorganizing arrays
 # reshape function
 be=np.arange(9)
-print(be.reshape(3,3))
+print(be)
+# print(be.reshape(3,3))
 
 # Vertically Stacking vectors
 

@@ -1,7 +1,10 @@
 # Acessing/Changing specific elements, rows,columns etc
 import numpy as np
 
-a=np.array([[1,2,3,4,5,6],[7,8,9,10,11,12],[13,14,15,16,17,18]],dtype='int8')
+a=np.array([
+    [1,2,3,4,5,6],
+    [7,8,9,10,11,12],
+    [13,14,15,16,17,18]],dtype='int8')
 
 # Get a specific element a[r.c]
 print(a[1,2])
@@ -32,6 +35,7 @@ b[:,1,:]=[[89,80],[87,76]]
 print(b)
 
 # Initializing different types of Arrays
+
 
 # All zeros matrix
 print(np.zeros(5))

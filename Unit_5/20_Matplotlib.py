@@ -7,7 +7,7 @@ y=np.array([4,3,2,5])
 # plt.bar(x,y)
 # The default width value of a bar is 0.8
 # plt.bar(x,y,color='r',width=0.1)
-plt.bar(x,y,height=0.3)
+plt.bar(x,y)
 
 # horizontal bar
 # plt.barh(x,y)

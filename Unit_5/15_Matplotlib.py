@@ -18,13 +18,13 @@ y=np.array([5,6,7,8,9])
 
 # Multiple Line
 '''
-plt.plot(y,x)
-plt.plot([1,2,3,4,5])
+# plt.plot(y,x)
+# plt.plot([1,2,3,4,5])
 '''
 x2=[1,2,3,4,5]
 y2=[5,4,3,2,1]
-plt.plot(x,y,x2,y2) #Multiple line in a same plt.plot()
-
+plt.plot(x,y) #Multiple line in a same plt.plot()
+plt.plot(x2,y2)
 plt.show()
 
 

@@ -4,15 +4,16 @@ df=pd.read_csv('Unit_5/Pokemon_data.csv')
 
 # Sorting/Describing Data
 print(df.describe())
-
+print(df.info())
 # Ascending Order Sorting
 print(df.sort_values('Name').head(10))
+print(" jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj")
 print(df.sort_values(['Name','HP']).head(10))
 
 # descending Order Sorting
 print(df.sort_values('Name', ascending=False).head(10))
 
-
+print("Totallllllllllllllllllll")
 # Make changes to  a data
 df['Total']=df['HP']+df['Attack']
 print(df['Total'])

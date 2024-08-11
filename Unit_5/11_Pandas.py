@@ -6,4 +6,5 @@ print(df.groupby(['Type 1']).mean(numeric_only=True).sort_values('Attack',ascend
 
 print(df.groupby(['Type 1']).sum())
 print(df.groupby(['Type 1']).count())
+print("end")
 
